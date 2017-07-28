@@ -15,7 +15,7 @@
 
   <div class="app" id="app" ng-class="{'app-header-fixed':app.settings.headerFixed, 'app-aside-fixed':app.settings.asideFixed, 'app-aside-folded':app.settings.asideFolded, 'app-aside-dock':app.settings.asideDock, 'container':app.settings.container}" ui-view></div>
 
-<div>{{app.settings.navbarHeaderColor}}</div>
+<div ui-view="chart"></div>
   <!-- Angular -->
 <script src="libs/angular.js"></script>
 <!-- Vendor -->

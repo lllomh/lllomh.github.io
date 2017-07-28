@@ -1,10 +1,15 @@
 app.config(function($stateProvider, $urlRouterProvider){
+
     $urlRouterProvider.otherwise('/home');
 
     $stateProvider
         .state('home',{
             url: '/home',
-            templateUrl: 'tpl/home.html'
+            views: {
+          "": {
+              templateUrl: 'tpl/home.html'
+          }
+      }
         })
         .state('photos',{
             url: '/photos',

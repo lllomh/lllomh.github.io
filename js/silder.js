@@ -1,3 +1,4 @@
+alert(111);
 var obj=null;
 var As=document.getElementById('nav').getElementsByTagName('a');
 obj = As[0];

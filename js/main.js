@@ -31,6 +31,11 @@ app.controller('AppCtrl', ['$scope',
           asideDock: false,
           container: false
         }
+    
       }
 
   }]);
+
+  app.controller('hel',function($scope) {
+  alert(11);
+  })

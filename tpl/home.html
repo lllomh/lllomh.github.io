@@ -9,13 +9,12 @@
 <!-- / nav -->
 
 <!-- view -->
-<!-- <div class="app-content" ng-class="{'m-n': app.hideAside, 'h-full': app.hideFooter }">
- <div class="app-content-body app-content-full fade-in-up" ng-class="{'h-full': app.hideFooter }" ui-view>
- </div>
-</div> -->
+<div class="app-content" ng-class="{'m-n': app.hideAside, 'h-full': app.hideFooter }">
+ <div  ng-class="{'h-full': app.hideFooter}" data-ng-include=" 'tpl/list.html' "></div>
+</div>
 <!-- / view -->
-<!-- navbar -->
-<!-- <div class="app-footer navbar navbar-fixed-bottom bg-light lt b-t" ng-class="{'m-n': app.hideAside, 'hide': app.hideFooter}" ui-view="footer">
 
-</div> -->
-<!-- /navbar -->
+
+<!-- foot -->
+<div class="app-footer navbar navbar-fixed-bottom bg-light lt b-t" ng-class="{'m-n': app.hideAside, 'hide': app.hideFooter}" data-ng-include=" 'tpl/widget/foot.html' "></div>
+<!-- /foot -->
