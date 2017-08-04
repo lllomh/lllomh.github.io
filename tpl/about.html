@@ -1,17 +1,14 @@
-<script type="text/javascript">
-  alert(11)
-</script>
 <!-- header -->
 <div data-ng-include=" 'tpl/widget/header.html' " class="app-header navbar"></div>
 <!-- / header -->
 
 <!-- nav -->
-<div data-ng-include=" 'tpl/widget/nav.html' " class="app-aside hidden-xs {{app.settings.asideColor}}"></div>
+<div data-ng-include=" 'tpl/widget/nav.html' " class="app-aside hidden-xs {{app.settings.asideColor}}" ng-class="{'hide': app.hideAside }"></div>
 <!-- / nav -->
 
 <!-- view -->
 <div class="app-content" ng-class="{'m-n': app.hideAside, 'h-full': app.hideFooter }">
- <div  ng-class="{'h-full': app.hideFooter}" data-ng-include=" 'tpl/list.html' "></div>
+ <div  ng-class="{'h-full': app.hideFooter}" data-ng-include=" 'tpl/about_content.html' "></div>
 </div>
 <!-- / view -->
 

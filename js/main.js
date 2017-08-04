@@ -20,6 +20,9 @@ app.controller('AppCtrl', ['$scope',
           dark:    '#3a3f51',
           black:   '#1c2b36'
         },
+        nav:{
+          about:false
+        },
         settings: {
           themeID: 1,
           navbarHeaderColor: 'bg-black',
@@ -31,7 +34,7 @@ app.controller('AppCtrl', ['$scope',
           asideDock: false,
           container: false
         }
-    
+
       }
 
   }]);

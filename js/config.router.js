@@ -7,7 +7,8 @@ app.config(function($stateProvider, $urlRouterProvider){
             url: '/home',
             views: {
           "": {
-              templateUrl: 'tpl/home.html'
+              templateUrl: 'tpl/home.html',
+              controller:'home'
           }
       }
         })
@@ -17,6 +18,8 @@ app.config(function($stateProvider, $urlRouterProvider){
         })
         .state('about',{
             url: '/about',
-            templateUrl: 'partials/about.html'
+            templateUrl: 'tpl/about.html',
+            controller:'about'
+
         })
 })
