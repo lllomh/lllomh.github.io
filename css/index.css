@@ -34,8 +34,8 @@ article{ width:1000px; margin:auto;overflow:hidden}
 #copright{ background:#2980B9;line-height:40px; height:40px; text-align:center; width:100%;color:#fff; font-family:'Arizonia', cursive; font-size:20px;}
 #copright a{color:#fff}
 .about{
-  background: #9ACC9966;
-color: #FFF;
-border-radius: 50px 0;
+  background: #9ACC9966!important;
+color: #FFF!important;
+border-radius: 50px 0!important;
 
 }
